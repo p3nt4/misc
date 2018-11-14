@@ -1,4 +1,4 @@
-$file = 'C:\EY_ASC_TEST.xml'
+$file = 'C:\Temp\EY_ASC_TEST.xml'
 $stream = [System.IO.StreamWriter] $file
 $stream.WriteLine(@'
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
