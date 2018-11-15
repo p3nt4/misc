@@ -1,0 +1,9 @@
+foreach ($computer in (get-content C:\temp\computerlist.txt)) { 
+  Try{  
+    [system.net.Dns]::GetHostAddresses($computer) | Foreach-Object { 
+      add-content -path C:\temp\ip2.txt -value "$computer,$($_.IPAddressToString)" 
+    } 
+  } Catch { 
+    add-content -path C:\temp\ip2.txt -value "$computer,Cannot resolve hostname" 
+  } 
+}
