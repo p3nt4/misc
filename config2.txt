@@ -1,1 +1,1 @@
-Start calc.exe
+echo 3
