@@ -1,1 +1,1 @@
-echo 3
+cmd /c echo 3
