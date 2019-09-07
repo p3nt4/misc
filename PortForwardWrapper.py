@@ -1,21 +1,3 @@
-# Author: Mario Scondo (www.Linux-Support.com)
-# Date: 2010-01-08
-# Script template by Stephen Chappell
-#
-# This script forwards a number of configured local ports
-# to local or remote socket servers.
-#
-# Configuration:
-# Add to the config file port-forward.config lines with
-# contents as follows:
-#   <local incoming port> <dest hostname> <dest port>
-#
-# Start the application at command line with 'python port-forward.py'
-# and stop the application by keying in <ctrl-c>.
-#
-# Error messages are stored in file 'error.log'.
-#
-
 import socket
 import sys
 import thread
