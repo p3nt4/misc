@@ -1,0 +1,7 @@
+https://service-now.com/cmdb_ci_computer_list.do?CSV
+https://service-now.com/sys_user_list.do?CSV
+https://service-now.com/cmdb_ci_appl.do?CSV
+https://service-now.com/sys_user_group_list.do
+http://service-now.com/sys_attachment_list.do
+https://service-now.com/sys_user_grmember_list.do
+https://service-now.com/incident_list.do
